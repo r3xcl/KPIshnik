@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		597A32CE010ACD22B25607F1 /* Pods_KPIshnik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699212AEE12F5CDA8A522B97 /* Pods_KPIshnik.framework */; };
+		5F09AADE27331BA100FB79E6 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09AADD27331BA100FB79E6 /* NotesViewController.swift */; };
+		5F09AAE027331BAE00FB79E6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09AADF27331BAE00FB79E6 /* SettingsViewController.swift */; };
+		5F09AAE627331D3B00FB79E6 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09AAE527331D3B00FB79E6 /* ScheduleViewController.swift */; };
 		5FFECB7F2731ADBF00D545B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFECB7E2731ADBF00D545B4 /* AppDelegate.swift */; };
 		5FFECB812731ADBF00D545B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFECB802731ADBF00D545B4 /* SceneDelegate.swift */; };
-		5FFECB832731ADBF00D545B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFECB822731ADBF00D545B4 /* ViewController.swift */; };
 		5FFECB862731ADBF00D545B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFECB842731ADBF00D545B4 /* Main.storyboard */; };
 		5FFECB882731ADC000D545B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFECB872731ADC000D545B4 /* Assets.xcassets */; };
 		5FFECB8B2731ADC000D545B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFECB892731ADC000D545B4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D92F4D8C6626B66376F10F0 /* Pods-KPIshnik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPIshnik.release.xcconfig"; path = "Target Support Files/Pods-KPIshnik/Pods-KPIshnik.release.xcconfig"; sourceTree = "<group>"; };
+		5F09AADD27331BA100FB79E6 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		5F09AADF27331BAE00FB79E6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5F09AAE527331D3B00FB79E6 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		5FFECB7B2731ADBF00D545B4 /* KPIshnik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPIshnik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFECB7E2731ADBF00D545B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FFECB802731ADBF00D545B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5FFECB822731ADBF00D545B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5FFECB852731ADBF00D545B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FFECB872731ADC000D545B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FFECB8A2731ADC000D545B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FFECB8C2731ADC000D545B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699212AEE12F5CDA8A522B97 /* Pods_KPIshnik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KPIshnik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63CA66FB02625FDAAC34474 /* Pods-KPIshnik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KPIshnik.debug.xcconfig"; path = "Target Support Files/Pods-KPIshnik/Pods-KPIshnik.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597A32CE010ACD22B25607F1 /* Pods_KPIshnik.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3935B8EF226EF77F3620C7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				699212AEE12F5CDA8A522B97 /* Pods_KPIshnik.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F09AAE727331D7900FB79E6 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				5FFECB842731ADBF00D545B4 /* Main.storyboard */,
+				5FFECB872731ADC000D545B4 /* Assets.xcassets */,
+				5FFECB892731ADC000D545B4 /* LaunchScreen.storyboard */,
+				5FFECB8C2731ADC000D545B4 /* Info.plist */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		5F09AAE827331D8100FB79E6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5FFECB7E2731ADBF00D545B4 /* AppDelegate.swift */,
+				5FFECB802731ADBF00D545B4 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5F09AAE927331D8B00FB79E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F09AAE527331D3B00FB79E6 /* ScheduleViewController.swift */,
+				5F09AADD27331BA100FB79E6 /* NotesViewController.swift */,
+				5F09AADF27331BAE00FB79E6 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		5FFECB722731ADBF00D545B4 = {
 			isa = PBXGroup;
 			children = (
 				5FFECB7D2731ADBF00D545B4 /* KPIshnik */,
 				5FFECB7C2731ADBF00D545B4 /* Products */,
+				98DFB5E20BE4B56BC4BA05AD /* Pods */,
+				3935B8EF226EF77F3620C7E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +105,20 @@
 		5FFECB7D2731ADBF00D545B4 /* KPIshnik */ = {
 			isa = PBXGroup;
 			children = (
-				5FFECB7E2731ADBF00D545B4 /* AppDelegate.swift */,
-				5FFECB802731ADBF00D545B4 /* SceneDelegate.swift */,
-				5FFECB822731ADBF00D545B4 /* ViewController.swift */,
-				5FFECB842731ADBF00D545B4 /* Main.storyboard */,
-				5FFECB872731ADC000D545B4 /* Assets.xcassets */,
-				5FFECB892731ADC000D545B4 /* LaunchScreen.storyboard */,
-				5FFECB8C2731ADC000D545B4 /* Info.plist */,
+				5F09AAE927331D8B00FB79E6 /* Controllers */,
+				5F09AAE827331D8100FB79E6 /* Application */,
+				5F09AAE727331D7900FB79E6 /* Res */,
 			);
 			path = KPIshnik;
+			sourceTree = "<group>";
+		};
+		98DFB5E20BE4B56BC4BA05AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E63CA66FB02625FDAAC34474 /* Pods-KPIshnik.debug.xcconfig */,
+				4D92F4D8C6626B66376F10F0 /* Pods-KPIshnik.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FFECB8F2731ADC000D545B4 /* Build configuration list for PBXNativeTarget "KPIshnik" */;
 			buildPhases = (
+				05A9C2A0CFDC034E4CBEFE34 /* [CP] Check Pods Manifest.lock */,
 				5FFECB772731ADBF00D545B4 /* Sources */,
 				5FFECB782731ADBF00D545B4 /* Frameworks */,
 				5FFECB792731ADBF00D545B4 /* Resources */,
+				DF224490CCBCFF73FA978B6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +189,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05A9C2A0CFDC034E4CBEFE34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KPIshnik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF224490CCBCFF73FA978B6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KPIshnik/Pods-KPIshnik-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KPIshnik/Pods-KPIshnik-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KPIshnik/Pods-KPIshnik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FFECB772731ADBF00D545B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FFECB832731ADBF00D545B4 /* ViewController.swift in Sources */,
+				5F09AAE627331D3B00FB79E6 /* ScheduleViewController.swift in Sources */,
+				5F09AADE27331BA100FB79E6 /* NotesViewController.swift in Sources */,
 				5FFECB7F2731ADBF00D545B4 /* AppDelegate.swift in Sources */,
+				5F09AAE027331BAE00FB79E6 /* SettingsViewController.swift in Sources */,
 				5FFECB812731ADBF00D545B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +384,7 @@
 		};
 		5FFECB902731ADC000D545B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63CA66FB02625FDAAC34474 /* Pods-KPIshnik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +392,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XPSBRV6KNB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KPIshnik/Info.plist;
+				INFOPLIST_FILE = KPIshnik/Res/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,6 +405,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = r3xcl.KPIshnik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,6 +414,7 @@
 		};
 		5FFECB912731ADC000D545B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D92F4D8C6626B66376F10F0 /* Pods-KPIshnik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,7 +422,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XPSBRV6KNB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KPIshnik/Info.plist;
+				INFOPLIST_FILE = KPIshnik/Res/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
