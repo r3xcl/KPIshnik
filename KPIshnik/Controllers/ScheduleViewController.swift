@@ -35,7 +35,7 @@ extension ScheduleViewController {
             calendar.topAnchor.constraint(equalTo: view.topAnchor, constant: 10),
             calendar.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
             calendar.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
-            calendar.heightAnchor.constraint(equalToConstant: 4ç00)
+            calendar.heightAnchor.constraint(equalToConstant: 400)
         ])
     }
 }
