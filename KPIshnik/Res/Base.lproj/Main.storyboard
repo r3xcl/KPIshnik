@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lXF-jv-JAI">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -11,14 +12,14 @@
         <!--Заметки-->
         <scene sceneID="TZh-2e-qHS">
             <objects>
-                <viewController id="30Q-F4-592" sceneMemberID="viewController">
+                <viewController id="30Q-F4-592" customClass="NotesViewController" customModule="KPIshnik" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LnU-lz-Yem">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="H6J-9t-f0R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Заметки" image="Заметки" id="fED-Z2-1My"/>
+                    <tabBarItem key="tabBarItem" title="Заметки" image="Notes" id="fED-Z2-1My"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c17-xq-yru" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -27,14 +28,14 @@
         <!--Расписание-->
         <scene sceneID="w7n-pa-0wC">
             <objects>
-                <viewController id="vYb-Eq-JqI" sceneMemberID="viewController">
+                <viewController id="vYb-Eq-JqI" customClass="ScheduleViewController" customModule="KPIshnik" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7rb-fp-4XW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="xXS-RD-Nin"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Расписание" image="Расписание" id="HMP-Ww-8hR"/>
+                    <tabBarItem key="tabBarItem" title="Расписание" image="Schedule" id="HMP-Ww-8hR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i1Y-V0-sYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,14 +63,14 @@
         <!--Настройки-->
         <scene sceneID="rhN-WX-GBT">
             <objects>
-                <viewController id="MVv-H1-c62" sceneMemberID="viewController">
+                <viewController id="MVv-H1-c62" customClass="SettingsViewController" customModule="KPIshnik" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v72-Ft-TEh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="XLw-7m-l1Q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Настройки" image="Настройки" id="liZ-Sn-efV"/>
+                    <tabBarItem key="tabBarItem" title="Настройки" image="Settings" id="liZ-Sn-efV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t2U-wN-vdi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,9 +78,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Заметки" width="25" height="25"/>
-        <image name="Настройки" width="25" height="25"/>
-        <image name="Расписание" width="25" height="25"/>
+        <image name="Notes" width="25" height="25"/>
+        <image name="Schedule" width="25" height="25"/>
+        <image name="Settings" width="25" height="25"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
