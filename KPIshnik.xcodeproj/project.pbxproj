@@ -11,6 +11,9 @@
 		5F09AADE27331BA100FB79E6 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09AADD27331BA100FB79E6 /* NotesViewController.swift */; };
 		5F09AAE027331BAE00FB79E6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09AADF27331BAE00FB79E6 /* SettingsViewController.swift */; };
 		5F09AAE627331D3B00FB79E6 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F09AAE527331D3B00FB79E6 /* ScheduleViewController.swift */; };
+		5FD316672733F420008B68C2 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD316662733F420008B68C2 /* SettingsTableViewCell.swift */; };
+		5FD3167127344F5E008B68C2 /* ChoiceGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3167027344F5E008B68C2 /* ChoiceGroupViewController.swift */; };
+		5FD3167327345E8D008B68C2 /* ChoiceGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD3167227345E8D008B68C2 /* ChoiceGroup.storyboard */; };
 		5FFECB7F2731ADBF00D545B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFECB7E2731ADBF00D545B4 /* AppDelegate.swift */; };
 		5FFECB812731ADBF00D545B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFECB802731ADBF00D545B4 /* SceneDelegate.swift */; };
 		5FFECB862731ADBF00D545B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFECB842731ADBF00D545B4 /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 		5F09AADD27331BA100FB79E6 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		5F09AADF27331BAE00FB79E6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		5F09AAE527331D3B00FB79E6 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		5FD316662733F420008B68C2 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		5FD3167027344F5E008B68C2 /* ChoiceGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceGroupViewController.swift; sourceTree = "<group>"; };
+		5FD3167227345E8D008B68C2 /* ChoiceGroup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChoiceGroup.storyboard; sourceTree = "<group>"; };
 		5FFECB7B2731ADBF00D545B4 /* KPIshnik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPIshnik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFECB7E2731ADBF00D545B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FFECB802731ADBF00D545B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,7 @@
 				5FFECB872731ADC000D545B4 /* Assets.xcassets */,
 				5FFECB892731ADC000D545B4 /* LaunchScreen.storyboard */,
 				5FFECB8C2731ADC000D545B4 /* Info.plist */,
+				5FD3167227345E8D008B68C2 /* ChoiceGroup.storyboard */,
 			);
 			path = Res;
 			sourceTree = "<group>";
@@ -80,6 +87,8 @@
 				5F09AAE527331D3B00FB79E6 /* ScheduleViewController.swift */,
 				5F09AADD27331BA100FB79E6 /* NotesViewController.swift */,
 				5F09AADF27331BAE00FB79E6 /* SettingsViewController.swift */,
+				5FD316662733F420008B68C2 /* SettingsTableViewCell.swift */,
+				5FD3167027344F5E008B68C2 /* ChoiceGroupViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -182,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FFECB8B2731ADC000D545B4 /* LaunchScreen.storyboard in Resources */,
+				5FD3167327345E8D008B68C2 /* ChoiceGroup.storyboard in Resources */,
 				5FFECB882731ADC000D545B4 /* Assets.xcassets in Resources */,
 				5FFECB862731ADBF00D545B4 /* Main.storyboard in Resources */,
 			);
@@ -238,7 +248,9 @@
 			files = (
 				5F09AAE627331D3B00FB79E6 /* ScheduleViewController.swift in Sources */,
 				5F09AADE27331BA100FB79E6 /* NotesViewController.swift in Sources */,
+				5FD316672733F420008B68C2 /* SettingsTableViewCell.swift in Sources */,
 				5FFECB7F2731ADBF00D545B4 /* AppDelegate.swift in Sources */,
+				5FD3167127344F5E008B68C2 /* ChoiceGroupViewController.swift in Sources */,
 				5F09AAE027331BAE00FB79E6 /* SettingsViewController.swift in Sources */,
 				5FFECB812731ADBF00D545B4 /* SceneDelegate.swift in Sources */,
 			);
@@ -396,6 +408,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -426,6 +439,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
