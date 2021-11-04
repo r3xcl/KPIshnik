@@ -48,19 +48,19 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2pX-P6-RbQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="vYb-Eq-JqI" kind="relationship" relationship="viewControllers" id="r2X-yF-IFm"/>
                         <segue destination="30Q-F4-592" kind="relationship" relationship="viewControllers" id="YMA-hJ-hv9"/>
-                        <segue destination="MVv-H1-c62" kind="relationship" relationship="viewControllers" id="8he-hd-4G9"/>
+                        <segue destination="YOi-U4-D3e" kind="relationship" relationship="viewControllers" id="8he-hd-4G9"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8zc-e2-zJg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-330" y="-68"/>
         </scene>
-        <!--Настройки-->
+        <!--Settings View Controller-->
         <scene sceneID="rhN-WX-GBT">
             <objects>
                 <viewController id="MVv-H1-c62" customClass="SettingsViewController" customModule="KPIshnik" customModuleProvider="target" sceneMemberID="viewController">
@@ -70,11 +70,30 @@
                         <viewLayoutGuide key="safeArea" id="XLw-7m-l1Q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Настройки" image="Settings" id="liZ-Sn-efV"/>
+                    <navigationItem key="navigationItem" id="bAS-7z-IKl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t2U-wN-vdi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="431" y="707"/>
+            <point key="canvasLocation" x="1368.8" y="706.59670164917543"/>
+        </scene>
+        <!--Настройки-->
+        <scene sceneID="je8-bu-5vQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YOi-U4-D3e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Настройки" image="Settings" id="liZ-Sn-efV"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="jFm-sN-9eg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MVv-H1-c62" kind="relationship" relationship="rootViewController" id="y5Y-tp-mmL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4w4-a8-zaK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="429.60000000000002" y="706.59670164917543"/>
         </scene>
     </scenes>
     <resources>
@@ -83,9 +102,6 @@
         <image name="Settings" width="25" height="25"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tertiarySystemFillColor">
-            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
